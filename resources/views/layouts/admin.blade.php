@@ -8,7 +8,7 @@
 	<meta name="author" content="Daengweb">
   <meta name="keyword" content="aplikasi ecommerce laravel, tutorial laravel basic, belajar laravel, panduan belajar laravel">
     
-  	<!-- PERHATIKAN BAGIAN INI, APAPUN YANG DIAPIT OLEH @SECTION('TITLE') PADA VIEW YANG MENGGUNAKAN MASTER INI, MAKA AKAN ME-REPLACE CODE DIBAWAH -->
+  	<!-- PERHATIKAN BAGIAN INI, APAPUN YANG DIAPIT OLEH @ SECTION('TITLE') PADA VIEW YANG MENGGUNAKAN MASTER INI, MAKA AKAN ME-REPLACE CODE DIBAWAH -->
   	<!-- TITLE MENJADI KATA KUNCI, JADI JIKA MENGGUNAKAN KEY TITLE PADA @ YIELD, MAKA GUNAKAN KEY TITLE PADA @ SECTION -->
     @yield('title')
 
@@ -35,19 +35,19 @@
             <button class="sidebar-minimizer brand-minimizer" type="button"></button>
         </div>
       
-      	<!-- BAGIAN INI AKAN DI-REPLACE SESUAI ISI YANG DIAPIT DARI @SECTION('CONTENT') -->
+      	<!-- BAGIAN INI AKAN DI-REPLACE SESUAI ISI YANG DIAPIT DARI @ SECTION('CONTENT') -->
         @yield('content')
       
     </div>
 
     <footer class="app-footer">
         <div>
-            <a href="https://coreui.io">Daengweb</a>
-            <span>&copy; 2018 creativeLabs.</span>
+            <a href="https://pusatab.com">Pusatab</a>
+            <span>&copy; 2018-2020</span>
         </div>
         <div class="ml-auto">
             <span>Powered by</span>
-            <a href="https://coreui.io">CoreUI</a>
+            <a href="https://coreui.io">e-Pank</a>
         </div>
     </footer>
     
